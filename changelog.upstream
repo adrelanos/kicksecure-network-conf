@@ -1,3 +1,9 @@
+commit 6b40c51e10125ea433000436d5c9331c89ff3a17
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:45:59 2026 +0000
+
+    bumped changelog version
+
 commit 6bfe8d1d64accbf0491d7d5875f83f8ba67b10d5
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:30:26 2026 -0400
@@ -45,11 +51,11 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon May 12 03:45:39 2025 -0400
 
     install `wireless-regdb` by default
-    
+
     add `wireless-regdb` to `kicksecure-network-conf`
-    
+
     fix error messages:
-    
+
     ```
     May 11 15:41:42 localhost kernel: platform regulatory.0: firmware: failed to load regulatory.db (-2)
     May 11 15:41:42 localhost kernel: platform regulatory.0: firmware: failed to load regulatory.db (-2)
@@ -134,7 +140,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:27 2023 -0500
 
     change license to AGPL-3+
-    
+
     https://forums.whonix.org/t/license-change-to-agplv3/17455
 
 commit 4ddf10029d58110a0ea1c3e5f8ed3b5c5c9727f4
@@ -262,13 +268,13 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Aug 19 08:44:49 2022 -0400
 
     fix `hostname` showing `localhost.localdomain` instead of `localhost`
-    
+
     The hostname is set to `localhost` in `/etc/hostname` already.
     However, NetworkManager considers that an invalid hostname and therefore changes it.
-    
+
     Therefore disable NetworkManager hostname management by setting
     NetworkManager `hostname-mode=none`.
-    
+
     https://forums.whonix.org/t/kicksecure-etc-hostname-etc-hosts/10919
 
 commit a902e350d7e9f229e80f8854866ca3c5b5b30a28
@@ -420,7 +426,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 23 10:02:50 2020 -0400
 
     kicksecure-network-conf Depends: wpasupplicant
-    
+
     http://forums.whonix.org/t/kicksecure-network-configuration/8985/61
 
 commit 92b55a7a775af7b0eaa4f8f8154dfa1fc6ab3ad5
@@ -464,10 +470,10 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 23 07:29:24 2020 -0400
 
     remove ifupdown configuration /etc/network/interfaces.d/30_kicksecure
-    
+
     remove dependency on ifupdown
     remove dependency on dhcpcanon since broken and not integrated with NetworkManger
-    
+
     https://forums.whonix.org/t/kicksecure-network-configuration/8985/58
 
 commit 4fb93d984d00c22fae96888184c5d2063ace3f01
@@ -561,7 +567,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Mar 25 11:47:24 2020 +0000
 
     Merge pull request #3 from HulaHoop0/patch-3
-    
+
     network-manager-gnome
 
 commit 46c8d2f7aeefb15361c2e79ee3053a1c4bb9d90b
@@ -576,7 +582,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Mar 18 16:05:51 2020 +0000
 
     Merge pull request #2 from HulaHoop0/patch-2
-    
+
     dhcp enabled
 
 commit 0e5b13b6a66a0ab65b4b198a55902cb9d3a54cd5
@@ -585,7 +591,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Mar 18 16:05:42 2020 +0000
 
     Merge pull request #1 from HulaHoop0/patch-1
-    
+
     Add dhcpcanon
 
 commit 4077e64847b57ea2fbad2b913c3184df18d467b1
@@ -617,7 +623,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 1 06:15:47 2020 -0500
 
     disable systemd-resolved for better security
-    
+
     https://phabricator.whonix.org/T793
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=761658
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=761658#216
@@ -690,7 +696,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Sep 15 11:27:38 2019 +0000
 
     use DNSCrypt servers as discussed
-    
+
     https://forums.whonix.org/t/use-dnscrypt-by-default-in-kicksecure-not-whonix/8117/3
 
 commit d7611cd3bc0f7a068e306047db21450177be82cc
@@ -704,7 +710,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Sep 15 05:05:23 2019 -0400
 
     add DNSCrypt / dnscrypt-proxy to /etc/resolv.conf as comment
-    
+
     to simplify enabling it
 
 commit c70dd15dbd510bd2daec1eaecfc819dae6abe1e0
