@@ -1,3 +1,9 @@
+kicksecure-network-conf (3:7.1-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 20 May 2026 22:10:11 +0000
+
 kicksecure-network-conf (3:7.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
